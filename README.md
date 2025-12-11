@@ -14,8 +14,6 @@
 - [Usage](#usage)
 - [Requirements](#requirements)
 - [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
 
 ## 🎯 Overview
 
@@ -416,4 +414,5 @@ If these scripts helped you, please consider:
 ---
 
 *Automating the boring stuff, one script at a time!*
+
 
