@@ -148,11 +148,10 @@ Humidity: 72%
 
 ### Platform-Specific Notes
 
-**Linux/macOS:**
+**Linux:**
 ```bash
 # May need to install xclip or xsel for clipboard access
 sudo apt-get install xclip  # Ubuntu/Debian
-brew install xclip          # macOS
 ```
 
 **Windows:**
@@ -242,7 +241,7 @@ The multi-clipboard manager stores data in `clipboard.json` in the same director
 
 ### Creating System-Wide Commands
 
-**Linux/macOS:**
+**Linux:**
 
 Add to your `~/.bashrc` or `~/.zshrc`:
 
@@ -266,12 +265,6 @@ python C:\path\to\multiclipboard.py %*
 ```
 
 ### Integration with Other Tools
-
-**Alfred (macOS):**
-```bash
-# Create Alfred workflow
-python ~/Simple-Automation-Scripts/multiclipboard.py save {query}
-```
 
 **Task Scheduler (Windows):**
 - Schedule weather checks at specific times
@@ -311,24 +304,6 @@ clipboard.json          # Storage file (auto-generated)
 - Wind speed (can be added)
 - Forecast (extendable)
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/new-script
-   ```
-3. **Add your script**
-   - Follow the existing code style
-   - Add comprehensive comments
-   - Update this README
-4. **Commit your changes**
-   ```bash
-   git commit -m "Add: New automation script for [purpose]"
-   ```
-5. **Push and create a Pull Request**
 
 ### Script Guidelines
 
@@ -339,7 +314,6 @@ When contributing new scripts:
 - ✅ Include usage examples
 - ✅ Document dependencies
 - ✅ Use command-line arguments
-- ✅ Follow PEP 8 style guide
 - ✅ Add comments for complex logic
 
 ### Ideas for New Scripts
@@ -366,9 +340,6 @@ Looking for inspiration? Here are some ideas:
 # Linux
 sudo apt-get install xclip xsel
 
-# macOS
-brew install pbcopy pbpaste
-```
 
 **Module not found:**
 ```bash
@@ -390,20 +361,9 @@ chmod +x multiclipboard.py weather.py
 
 - [ ] Add more automation scripts
 - [ ] Create GUI versions
-- [ ] Add unit tests
-- [ ] Docker containerization
-- [ ] CI/CD pipeline
 - [ ] Web interface option
-- [ ] Cross-platform installer
 - [ ] Documentation website
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License - Free to use, modify, and distribute
-```
 
 ## 👤 Author
 
@@ -456,3 +416,4 @@ If these scripts helped you, please consider:
 ---
 
 *Automating the boring stuff, one script at a time!*
+
