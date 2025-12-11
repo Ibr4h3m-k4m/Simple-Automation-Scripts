@@ -1,6 +1,6 @@
 import requests
 
-API_KEY ="63814599d9ffc3be3c76410bbf5cac6f"
+API_KEY ="REDACTED"
 API_LINK = "http://api.openweathermap.org/data/2.5/weather"
 
 city = input("Enter The city name of which you wanna know the current weather: ")
